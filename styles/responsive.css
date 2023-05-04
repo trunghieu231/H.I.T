@@ -1,0 +1,369 @@
+@charset "utf-8";
+
+@media only screen and (min-width: 1360px) and (max-width: 1599px)
+{
+	.header
+	{
+		width: 1200px;
+	}
+	.header_content
+	{
+		width: 100%;
+	}
+	.main_nav_container
+	{
+		padding-right: 63px;
+	}
+	.owl-dots{
+		margin-right: 16%;
+	}
+	.contact {
+		left: 88%;
+	}
+	a.back-to-top {
+		left: 100%;
+	}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1359px)
+{
+	.header
+	{
+		width: 100%;
+	}
+	.header_content
+	{
+		width: 100%;
+	}
+	.main_nav_container
+	{
+		padding-right: 53px;
+	}
+	.hero_slide_content h1
+	{
+		font-size: 56px;
+	}
+	.card-title
+	{
+		font-size: 20px;
+	}
+	.register_content,
+	.owl-dots {
+		margin-right: 11%;
+	}
+	.contact {
+		left: 86%;
+	}
+	a.back-to-top {
+		left: 90%;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+
+	.hero_box
+	{
+		padding-left: 20px;
+	}
+	.main_nav_item
+	{
+		margin-right: 33px;
+	}
+	.main_nav_container
+	{
+		display: none;
+	}
+	.logo_container
+	{
+		padding-left: 30px;
+	}
+	.hamburger_container
+	{
+		display: block;
+	}
+	.owl-dots{
+		margin-right: 13%;
+	}
+	.card-body{
+		height: 360px;
+	}
+	.contact {
+		padding: 11px 14px;
+		left: 84.5%;
+	}
+	a.back-to-top {
+		left: 90%;
+	}
+}
+
+@media only screen and (min-width: 880px) and (max-width: 991px)
+{
+	.main_nav {
+		display: none;
+	}
+	.hamburger_container
+	{
+		display: block;
+	}
+	.owl-dots {
+		margin-right: 16%;
+	}
+	.card-img-top{
+		height: 300px;
+	}
+	.card-body {
+		height: 200px;
+	}
+	.card-title{
+		margin-top: 20px;
+	}
+	.contact {
+		padding: 17px 14px;
+		left: 82.5%;
+	}
+	.contact-now {
+		width: 85%;
+	}
+	a.back-to-top  {
+		left: 101%;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 879px)
+{
+	.main_nav {
+		display: none;
+	}
+	.hamburger_container
+	{
+		display: block;
+	}
+	.card-img-top{
+		height: 300px;
+	}
+	.card-body {
+		height: 200px;
+	}
+	.card-title{
+		margin-top: 20px;
+	}
+	.contact {
+		padding: 11px 21px;
+		left: 79.5%;
+	}	
+	.contact-now {
+		width: 85%;
+	}
+	a.back-to-top  {
+		left: 95%;
+	}
+}
+
+@media only screen and (min-width: 625px) and (max-width: 767px)
+{
+	.main_nav {
+		display: none;
+	}
+	.hamburger_container
+	{
+		display: block;
+	}
+	.hero_boxes_inner{
+		top: -130px;
+	}
+	.hero_box{
+		height: 130px;
+		padding: 0px;
+	}
+	.hero_box_title{
+		font-size: 24px;
+	}
+	a.hero_box_link{
+		font-size: 14px;
+	}
+	.owl-dots{
+		margin-right: 18%;
+		margin-bottom: 6rem;
+	}
+	.achievement{
+		border-right:  0px
+	}
+	.card-body{
+		height: 200px;
+		margin-bottom: 48px;
+	}
+	.card-title{
+		margin-top: 20px;
+	}
+	.contact{
+		left: 76%;
+	}
+}
+
+@media only screen and (min-width: 539px) and (max-width: 624px)
+{
+	.main_nav {
+		display: none;
+	}
+	.hamburger_container
+	{
+		display: block;
+	}
+	.hero_boxes_inner{
+		top: -130px;
+	}
+	.hero_box{
+		height: 130px;
+		padding: 0px;
+	}
+	.hero_box_title{
+		font-size: 24px;
+	}
+	a.hero_box_link{
+		font-size: 14px;
+	}
+	.owl-dots{
+		margin-right: 11%;
+		margin-bottom: 6rem;
+	}
+	.achievement{
+		border-right:  0px
+	}
+	.card-body{
+		height: 200px;
+		margin-bottom: 48px;
+	}
+	.card-title{
+		margin-top: 20px;
+	}
+	.contact{
+		left: 73%;
+	}
+	.newsletter_form{
+		gap: 0px;
+	}
+}
+
+@media only screen and (min-width: 450px) and (max-width: 538px)
+{
+	.header{
+		width: 111%;
+	}
+	.logo_container{
+		padding-left: 40px;
+	}
+	.main_nav {
+		display: none;
+	}
+	.hamburger_container
+	{
+		display: block;
+		right: 35px;
+	}
+	.hero_boxes_inner{
+		top: -145px;
+	}
+	.hero_box{
+		height: 160px;
+		padding: 0px;
+	}
+	.hero_box_title{
+		font-size: 24px;
+	}
+	a.hero_box_link{
+		font-size: 14px;
+	}
+	.owl-dots{
+		margin-right: 5%;
+		margin-bottom: 7rem;
+	}
+	.achievement{
+		border-right:  0px
+	}
+	.card-body{
+		height: 250px;
+		margin-bottom: 48px;
+	}
+	.card-title{
+		margin-top: 20px;
+	}
+	.contact{
+		padding: 17px 24px;
+		left: 67%;
+	}
+	.footer{
+		padding-top: 40px;
+	}
+	.newsletter_form{
+		gap: 0px;
+	}
+}
+
+@media only screen and (min-width: 350px) and (max-width: 449px)
+{
+	.header{
+		width: 111%;
+	}
+	.menu_close_container{
+		top: 20px;
+		right: 23px;
+	}
+	.menu{
+		top: 60px;
+		padding-left: 10%;
+	}
+	.menu_item a {
+		font-size: 24px;
+	}
+	.logo_container{
+		padding-left: 40px;
+	}
+	.main_nav {
+		display: none;
+	}
+	.hamburger_container
+	{
+		display: block;
+		right: 35px;
+	}
+	.hero_boxes_inner{
+		top: -180px;
+	}
+	.hero_box{
+		height: 180px;
+		padding: 0px;
+	}
+	.hero_box_title{
+		font-size: 24px;
+	}
+	a.hero_box_link{
+		font-size: 14px;
+	}
+	.owl-dots{
+		margin-right: 7%;
+		margin-bottom: 159px;
+	}
+	.achievement{
+		border-right:  0px
+	}
+	.card-body{
+		height: 250px;
+		margin-bottom: 48px;
+	}
+	.card-title{
+		margin-top: 20px;
+	}
+	.contact{
+		padding: 8px 10px;
+		left: 60%;
+		width: 178px;
+		height: 165px;
+	}
+	.footer{
+		padding-top: 40px;
+	}
+	.newsletter_form{
+		gap: 0px;
+	}
+}
