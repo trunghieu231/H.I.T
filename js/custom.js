@@ -56,9 +56,9 @@ $(document).ready(function()
 
 	function initHeroSlider()
 	{
-		if($('.hero_slider').length)
+		if($('.hero-slider').length)
 		{
-			var owl = $('.hero_slider');
+			var owl = $('.hero-slider');
 
 			owl.owlCarousel(
 			{
@@ -111,9 +111,9 @@ $(document).ready(function()
 
 	function initHamburger()
 	{
-		if($('.hamburger_container').length)
+		if($('.hamburger-container').length)
 		{
-			var hamb = $('.hamburger_container');
+			var hamb = $('.hamburger-container');
 
 			hamb.on('click', function(event)
 			{
@@ -125,7 +125,7 @@ $(document).ready(function()
 					
 					$(document).one('click', function cls(e)
 					{
-						if($(e.target).hasClass('menu_mm'))
+						if($(e.target).hasClass('menu-mm'))
 						{
 							$(document).one('click', cls);
 						}
@@ -137,7 +137,7 @@ $(document).ready(function()
 				}
 				else
 				{
-					$('.menu_container').removeClass('active');
+					$('.menu-container').removeClass('active');
 					menuActive = false;
 				}
 			});
@@ -146,7 +146,7 @@ $(document).ready(function()
 
 	function openMenu()
 	{
-		var fs = $('.menu_container');
+		var fs = $('.menu-container');
 		fs.addClass('active');
 		hambActive = true;
 		menuActive = true;
@@ -154,7 +154,7 @@ $(document).ready(function()
 
 	function closeMenu()
 	{
-		var fs = $('.menu_container');
+		var fs = $('.menu-container');
 		fs.removeClass('active');
 		hambActive = false;
 		menuActive = false;
